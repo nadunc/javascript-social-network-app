@@ -1,0 +1,140 @@
+body{
+  padding-top: 70px;
+}
+.post-app{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.post-container{
+  margin: 50px 0;
+}
+.post{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.post-date{
+  font-size:12px;
+  color: #888;
+}
+.post-btn{
+  padding: 5px 30px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.post-form{
+  background-color: #eee;
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.post-user{
+  font-size: 16px;
+  color: #444;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.post-text{
+  font-size:14px;
+}
+.post-delete-btn{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 18px;
+}
+.post-remaining-characters{
+  font-size: 11px;
+  color: #666;
+  margin-top: -10px;
+}
+
+.comment-user{
+  color: #444;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.comment-text{
+  font-size:11px;
+  margin-bottom: 0px;
+}
+.comment-date{
+  font-size:10.5px;
+  color: #888;
+  margin-bottom: 3px;
+}
+.comment{
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 0;
+  background-color: #f6f6f6;
+}
+.comment .card-block{
+  padding: 5px 15px;
+}
+.comment-user-img{
+  padding-right: 0px;
+  padding-top: 2px;
+  max-width: 55px;
+}
+.comment-write{
+  font-size: 13px;
+  color: #888;
+  border-radius: 2px;
+}
+.like{
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.total-likes{
+  margin-left: 10px;
+  color: #666;
+}
+.total-likes img{
+  margin-top: -4px;
+  width: 12px;
+  margin-right: 5px;
+}
+.like-unlike{
+  cursor: pointer;
+  color: #4286f4;
+}
+.like-unlike:hover, .like-unlike:focus{
+  color: #1251ba;
+}
+.nav-user-img{
+  width: 30px;
+}
+.nav-user-name{
+  margin-right: 20px;
+  color: #fff;
+}
+
+.empty-user{
+  background-color: #bc0fb8;
+  padding: 10px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.hidden{
+  display: none;
+}
+
+
+.bg-avo{
+  background-color:	#520650;
+  border: 1px solid #520650;
+}
+.btn-avo, .btn-avo:focus, .btn-avo:active{
+  border: 1px solid #520650;
+  color: #fff;
+}
+.btn-avo:hover, .btn-avo:active{
+  background-color:	#72096f;
+  border: 1px solid #72096f;
+}
